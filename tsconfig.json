@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", // local em que vai ser garado o código em JS
+    "module": "commonjs", // modulo usado para importação e exportação
+    "target": "ES2022", // Versão do ECMAScript para geração do JS
+    "esModuleInterop": true, // Habilitar a conversão dos módulos que usam o commonJS
+    "allowJs": true, // Incluir arquivos de JavaScript
+  }
+}
