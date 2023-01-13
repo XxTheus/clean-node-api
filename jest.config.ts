@@ -1,6 +1,6 @@
 export default {
   roots: ["<rootDir>/src"],
-  collectCoverage: ['<rootDir>/src/**/*.ts'],
+  collectCoverageFrom: ['<rootDir>/src/**/*.ts'],
   coverageDirectory: "coverage",
   testEnvironment: "jest-environment-node",
   coverageProvider: "v8",
